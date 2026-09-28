@@ -89,13 +89,13 @@
 
         </table>
         <hr>
-
+        <h1>Registration Form</h1>
         <form action="/action.php">
             <input type="text" placeholder="Username">
             <br>
             <input type="password" placeholder="Password">
             <br>
-
+            <h4>Select your Class</h4>
             <lable for="101">
             <input type="radio" value="class XI" name="class" id="101">class XI </lable>
             <br>
@@ -107,17 +107,27 @@
             <lable for="math">
                 <input type="checkbox" value="math" name="subject" id="101">math
             </lable>
+            <br>
             <lable for="phy">
-                <input type="checkbox" value="phy" name="subject" id="101">phy
-            </lable> 
+                <input type="checkbox" value="phy" name="subject" id="102">phy
+            </lable>
+            <br> 
             <lable for="IT">
-                <input type="checkbox" value="IT" name="subject" id="101">IT
+                <input type="checkbox" value="IT" name="subject" id="103">IT
             </lable>
+            <br>
             <lable for="Eng">
-                <input type="checkbox" value="eng" name="subject" id="101">eng
+                <input type="checkbox" value="eng" name="subject" id="104">eng
             </lable>
-
-
+            <br><br>
+            <b>Select your City</b>
+            <select name="City">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br><br>
         </form>
         
     </main>
